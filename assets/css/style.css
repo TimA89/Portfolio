@@ -315,10 +315,10 @@ textarea.form-control {
 	background-color: #222;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	-webkit-background-size: cover;
-	   -moz-background-size: cover;
-		 -o-background-size: cover;
-			background-size: cover;
+	-webkit-background-size: auto;
+	   -moz-background-size: auto;
+		 -o-background-size: auto;
+			background-size: auto;
 	padding: 50px 0;
 	color: #999;
 }
@@ -570,7 +570,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -708,6 +708,7 @@ textarea.form-control {
 	.mypic {
 		width: 100%;
 		margin: 10px;
+		float: none;
 	}
 }
 
@@ -767,7 +768,7 @@ textarea.form-control {
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1em;
@@ -992,7 +993,21 @@ figure.effect-bubba:hover p {
 	}
 
 }
+.portfolio-modal-dialog {
+float: none;
+border: 1px solid black;
+padding: 0px 10px 20px 10px;
+background-color: rgb(155, 155, 155);
+border-radius: 10px;
+}
 
+.modal-backdrop.in {
+	opacity: 0;
+}
+
+.portfolio_div {
+	width: 80%;
+}
 .portfolio-modal .portfolio-modal-dialog .close-button {
   position: absolute;
   top: 4rem;
@@ -1004,13 +1019,15 @@ figure.effect-bubba:hover p {
 }
 
 .img-fluid {
-	max-width: 50%;
+	max-width: 75%;
 }
 
 
 .modal_p {
-	margin-top: 10px;
-	font-size: 25px;
+	margin: 7px auto;
+	font-size: 18px;
+	color: black;
+	width: 70%;
 }
 
 /* .modal-backdrop {
@@ -1048,4 +1065,8 @@ figure.effect-bubba:hover p {
 
 .skills-logo {
 	color: #ef1e25;
+}
+
+.about_me {
+	text-align: center;
 }
