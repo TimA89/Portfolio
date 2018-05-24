@@ -250,7 +250,7 @@ textarea.form-control {
 }
 
 .pfblock-gray {
-	background: #f5f5f5;
+	/* background: #f5f5f5; */
 }
 
 .pfblock-image {
@@ -1069,4 +1069,8 @@ border-radius: 10px;
 
 .about_me {
 	text-align: center;
+}
+
+canvas {
+	/* z-index: -100; */
 }
